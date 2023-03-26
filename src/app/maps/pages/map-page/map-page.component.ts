@@ -9,7 +9,7 @@ import { PlacesServices } from '../../services';
 export class MapPageComponent {
 
   constructor(
-    private placesServices: PlacesServices
+    private placesServices: PlacesServices,
   ) { }
 
 
