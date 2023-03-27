@@ -69,7 +69,7 @@ export class PlacesServices {
         this.places = response.features;
 
 
-        this.mapService.createMarkersFromPlaces(this.places)
+        this.mapService.createMarkersFromPlaces(this.places, this.userLocation!)
       })
 
   }
