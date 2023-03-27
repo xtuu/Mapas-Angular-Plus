@@ -75,4 +75,11 @@ export class PlacesServices {
   }
 
 
+
+
+  deletePlaces() {
+    this.places = []
+  }
+
+
 }
